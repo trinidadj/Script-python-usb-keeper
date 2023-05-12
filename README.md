@@ -8,11 +8,13 @@ How to Use
 Save the script to a directory on your computer.
 Connect the USB drive to your computer.
 Open a terminal or command prompt and navigate to the directory where the script is saved.
-Run the script using the command python data_recovery.py.
+Run the script using the command python usb_keeper.py.
 The script will search for a folder named "Pictures" in the current directory and copy it to a new folder named "recovery_data" on the USB drive.
+
 Requirements
 Python 3
 The os and shutil modules (included in Python standard library)
+
 Notes
 The script uses relative paths to ensure it can be executed from a USB drive.
 If the script encounters an error, it will print an error message and exit.
